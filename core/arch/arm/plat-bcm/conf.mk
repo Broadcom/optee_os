@@ -29,6 +29,7 @@ $(call force,CFG_BCM_SOTP,y)
 $(call force,CFG_BCM_GPIO,y)
 CFG_BNXT_FW ?= y
 CFG_BCM_ELOG_DUMP ?= y
+CFG_SPI_FLASH ?= y
 endif
 
 CFG_BCM_ELOG_AP_UART_LOG_BASE ?= 0x8f110000

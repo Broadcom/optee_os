@@ -4,3 +4,4 @@ srcs-$(CFG_BCM_HWRNG) += hwrng.c
 srcs-$(CFG_BCM_SOTP) += sotp.c
 srcs-$(CFG_BCM_GPIO) += gpio.c
 srcs-$(CFG_BCM_ELOG_DUMP) += elog.c
+srcs-$(CFG_SPI_FLASH) += spi_flash.c
